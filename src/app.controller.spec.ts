@@ -16,7 +16,7 @@ describe('AppController', () => {
 
   describe('root', () => {
     it('should return status message', () => {
-      expect(appController.getHello()).toBe('API de Controle de Produtos está ativa!');
+      expect(appController.getHello()).toBe('API de Controle de Projetos está ativa!');
     });
   });
 });
